@@ -47,3 +47,6 @@ C:\Users\kurs\Documents\Visual Studio 2015\Projects\Stringi_22.11.2016\Stringi\o
 C:\Users\kurs\Documents\Visual Studio 2015\Projects\Stringi_22.11.2016\Stringi\obj\Debug\Stringi.Form1.resources
 C:\Users\kurs\Documents\Visual Studio 2015\Projects\Stringi_22.11.2016\Stringi\obj\Debug\Stringi.Properties.Resources.resources
 C:\Users\kurs\Documents\Visual Studio 2015\Projects\Stringi_22.11.2016\Stringi\obj\Debug\Stringi.csproj.GenerateResource.Cache
+C:\Users\kurs\C-Sharp-AMT-2016\Stringi\bin\Debug\Stringi.exe.config
+C:\Users\kurs\C-Sharp-AMT-2016\Stringi\obj\Debug\Stringi.exe
+C:\Users\kurs\C-Sharp-AMT-2016\Stringi\obj\Debug\Stringi.pdb
