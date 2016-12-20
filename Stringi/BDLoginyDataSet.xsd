@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="BDLoginyDataSet" targetNamespace="http://tempuri.org/BDLoginyDataSet.xsd" xmlns:mstns="http://tempuri.org/BDLoginyDataSet.xsd" xmlns="http://tempuri.org/BDLoginyDataSet.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="BDLoginyConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="BDLoginyConnectionString (Settings)" PropertyReference="ApplicationSettings.Stringi.Properties.Settings.GlobalReference.Default.BDLoginyConnectionString" Provider="System.Data.OleDb" />
+        </Connections>
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="BDLoginyDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="True" msprop:Generator_DataSetName="BDLoginyDataSet" msprop:Generator_UserDSName="BDLoginyDataSet">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="Logowanie" msprop:Generator_TableClassName="LogowanieDataTable" msprop:Generator_TableVarName="tableLogowanie" msprop:Generator_TablePropName="Logowanie" msprop:Generator_RowDeletingName="LogowanieRowDeleting" msprop:Generator_RowChangingName="LogowanieRowChanging" msprop:Generator_RowEvHandlerName="LogowanieRowChangeEventHandler" msprop:Generator_RowDeletedName="LogowanieRowDeleted" msprop:Generator_UserTableName="Logowanie" msprop:Generator_RowChangedName="LogowanieRowChanged" msprop:Generator_RowEvArgName="LogowanieRowChangeEvent" msprop:Generator_RowClassName="LogowanieRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Login" msprop:Generator_ColumnVarNameInTable="columnLogin" msprop:Generator_ColumnPropNameInRow="Login" msprop:Generator_ColumnPropNameInTable="LoginColumn" msprop:Generator_UserColumnName="Login" type="xs:string" minOccurs="0" />
+              <xs:element name="Password" msprop:Generator_ColumnVarNameInTable="columnPassword" msprop:Generator_ColumnPropNameInRow="Password" msprop:Generator_ColumnPropNameInTable="PasswordColumn" msprop:Generator_UserColumnName="Password" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
